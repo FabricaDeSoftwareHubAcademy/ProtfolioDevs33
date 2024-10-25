@@ -1,0 +1,76 @@
+.projetos-halyson {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+.tittle-projeto-halyson {
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.content-projetos-halyson {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img-text-halyson {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+    gap: 15px;
+}
+
+.img-halyson {
+    width: 100%;
+    height: 600px;
+    background-color: transparent;
+}
+
+.cards-halyson {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-halyson {
+    width: 80%;
+    height: 200px;
+    border: 1px solid var(--color-preta-halyson);
+    background-color: var(--color-branca-halyson);
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 10px;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.img-card-halyson {
+    width: 220px;
+}
+
+.content-card-halyson {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 20px;
+}

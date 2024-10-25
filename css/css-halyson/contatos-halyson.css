@@ -1,0 +1,41 @@
+.contatos-halyson {
+    width: 100%;
+    padding: 20px 50px;
+    background-color: var(--color-preta-halyson);
+}
+
+.tittle-contato-halyson {
+    color: var(--color-branca-halyson);
+}
+
+.content-halyson {
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+    padding: 0px 20px;
+}
+
+.box-contato-halyson {
+    width: auto;
+    height: 100px;
+}
+
+.box-contato-halyson {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons-rede-halyson {
+    color: var(--color-branca-halyson);
+    font-size: 1.5rem;
+}
+
+.text-contato-halyson {
+    color: var(--color-branca-halyson);
+    font-size: 1.3rem;
+}
