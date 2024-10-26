@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url(/img/ai-generated-8287237_1920.png);
+    background-image: url(/img/thiego_port_background.png);
     background-attachment: fixed;
 }
 /* Header */
@@ -333,7 +333,7 @@ header{
 /* Footer */
 
 footer {
-    background-color:rgb(105, 104, 104);
+    background-color:aliceblue;
 }
 
 .footer-itens {
