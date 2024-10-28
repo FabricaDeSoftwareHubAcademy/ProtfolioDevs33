@@ -78,7 +78,7 @@ header{
 .cta h2{
     font-size: 2rem;
     color: aliceblue;
-    margin-top: 10%;
+    margin-top: ;
 
 }
 .cta .descricao{
@@ -269,6 +269,7 @@ header{
 .card-image {
     border-radius: 50px;
     display: flex;
+    width: 60%;
 }
 .card-buttom{
     display: flex;
@@ -316,6 +317,7 @@ header{
     gap: 28px;
     margin-top: 3%;
     padding-left: 5%;
+    
 }
 .contato-titulo{
     font-size: 4rem;
@@ -332,6 +334,18 @@ header{
 .contato-box div i{
     color: #ff6e27;
     font-size: 50px;
+}
+.certificados{
+
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+.contato-box h3{
+    display: flex;
+    margin-top: 25%;
+    color: aliceblue;
 }
 /* Footer */
 
