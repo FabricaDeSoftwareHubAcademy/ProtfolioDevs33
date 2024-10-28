@@ -7,9 +7,9 @@
 
 :root{
  --color-primary-1: #1E1D1B;
- --color-primary-2: #43E0D2;
+ --color-primary-2: #56f5e8;
  --color-primary-3: #F4F1DE;
- --color-primary-4: #075D55;
+ --color-primary-4: #076960;
 }
 
 .portfolio-raquel{
@@ -27,8 +27,12 @@
 #voltar-r{
  font-size: 30px;
  color: var(--color-primary-3);
- margin-left: 60px;
- margin-top: 40px;
+ margin-left: 20px;
+ margin-top: 45px;
+}
+
+.nav-bar{
+  list-style: none;
 }
 
 #voltar-r:hover{
@@ -113,12 +117,12 @@
  margin-left: 53.7rem;
  margin-top: -160px;
  position: absolute;
+ transition: 0.1s ease;
 }
 
 .tria-r:hover{
   color: var(--color-primary-3);
   cursor: pointer;
-  transition: 0.3s ease;
 }
 
 
@@ -155,6 +159,7 @@
  background-color: var(--color-primary-2);
  padding: 6% 10px;
  margin-top: 20px;
+ transition: 4s ease;
 }
 
 .educacao-r{
