@@ -66,10 +66,8 @@ header{
     gap: 28px;
     margin-top: 5%;
     padding-left: 5%;
-    
+
 }
-
-
 .cta .titulo{
     font-size: 4rem;
     color: aliceblue;
@@ -78,7 +76,6 @@ header{
 .cta h2{
     font-size: 2rem;
     color: aliceblue;
-    margin-top: ;
 
 }
 .cta .descricao{
@@ -110,10 +107,10 @@ header{
         min-height: calc(100vh - 100px);
     }    
     .cta{
-        margin-top: 20%;
+        margin-top: 17%;
         width: 100%;
         text-align: center;
-        align-items: center;  
+        align-items: center; 
     }
     .cta .title{
         font-size: 2.5rem;
@@ -122,19 +119,19 @@ header{
         font-size: 2rem;
     }
     .quemsou{
-        min-height: 100%;
-        margin-top: 10%;    
+        min-height: calc(100vh - 100px);
+        display: flex;
+        margin-top: 10%;   
     } 
     .box-texto{
+        display: flex;
         min-width: 100%;
-        width:100%;
-        text-align: center;
-        align-items: center;
-        margin-top: 25%;
-        
+        height: 120vh;
+        text-align: center;   
     }
     .box-texto .titulo-texto{
         font-size: 2.5rem;
+        margin-top: 15%;
     }
     .box-texto .texto{
         font-size: 2rem;
@@ -149,7 +146,6 @@ header{
         width: 70%;
     }
     .projetos{
-        margin-top: 5%;
         min-height: 100%;
     }
     .projetos-box{
@@ -157,7 +153,11 @@ header{
         min-width: 100%;
         text-align: center;
         align-items: center;
-        margin-top: 20%;
+        display: flex;
+    }
+    .projetos-box h1{
+        display: flex;
+        margin-top: 15%;
     }
     .cards{
         width: 100%;
@@ -166,28 +166,27 @@ header{
     }
     .contato{
         min-height: 100%;
-          
+        margin-top: 20%;   
     }
     .contato-box{
         width: 100%;
         text-align: center;
         align-items: center;
-        
+        margin-top: 40%;
         min-width: 100%;
+        justify-content: center;
     }
     .contato-titulo{
         font-size: 4rem;
         color: aliceblue;
+        margin-top: 15%;
     }
     .contato-box div{
         display: flex;
         justify-content: space-evenly;
         width: 100%;
     }
-    .contato-box{
-        height: 70vh;
-    }
-}
+} 
 
 /* Quem Sou */
 
