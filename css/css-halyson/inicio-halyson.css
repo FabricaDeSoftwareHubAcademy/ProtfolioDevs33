@@ -50,7 +50,7 @@
     height: calc(100%);
     color: var(--color-preta-halyson);
     position: absolute;
-    background-image: url('../img-halyson/fundo-halyson.png');
+    background-image: url('../img/img-halyson/fundo-halyson.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
