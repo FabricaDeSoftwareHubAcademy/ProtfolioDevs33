@@ -76,6 +76,7 @@ header{
 .cta h2{
     font-size: 2rem;
     color: aliceblue;
+    margin-top: 20%;
 
 }
 .cta .descricao{
@@ -136,14 +137,16 @@ header{
     .box-texto .texto{
         font-size: 2rem;
     }
+    .navbar{
+        min-width: 100%;
+    }
     .nav-item a{
         font-size: 14px;
     }
     .nav-list{
         display: flex;
         list-style: none;
-        gap: px;
-        width: 70%;
+        width: 100%;
     }
     .projetos{
         min-height: 100%;
@@ -177,7 +180,7 @@ header{
         justify-content: center;
     }
     .contato-titulo{
-        font-size: 4rem;
+        font-size: 2.5rem;
         color: aliceblue;
         margin-top: 15%;
     }
@@ -206,7 +209,7 @@ header{
     padding-left: 5%;
 }
 .titulo-texto{
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: aliceblue;
 }
 .box-texto .texto{
@@ -256,7 +259,7 @@ header{
 }
 
 .projetos-titulo{
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: aliceblue;
 }
 
@@ -319,7 +322,7 @@ header{
     
 }
 .contato-titulo{
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: aliceblue;
 }
 .contato-texto{
@@ -345,6 +348,7 @@ header{
     display: flex;
     margin-top: 25%;
     color: aliceblue;
+    justify-content: center;
 }
 /* Footer */
 
