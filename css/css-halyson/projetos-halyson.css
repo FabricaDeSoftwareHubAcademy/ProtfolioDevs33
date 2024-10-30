@@ -19,34 +19,17 @@
     flex-direction: row;
     align-items: center;
 }
-.img-text-halyson {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px 30px;
-    gap: 15px;
-}
 
-.img-halyson {
-    width: 100%;
-    height: 600px;
-    background-color: transparent;
-}
 
 .cards-halyson {
-    width: 70%;
+    width: 100%;
     height: 100%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .card-halyson {
-    width: 80%;
+    width: 60%;
     height: 200px;
     border: 1px solid var(--color-preta-halyson);
     background-color: var(--color-branca-halyson);
@@ -56,8 +39,24 @@
     flex-direction: row;
     padding: 5px 10px;
     gap: 20px;
+    margin-left: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    transition: all .5s ease-in-out;
+}
+
+.card-halyson:hover {
+    width: 61%;
+    height: 210px;
+    transition: all .5s ease-in-out;
+}
+
+.card-2-halyson {
+    margin-left: 20px;
+}
+
+.card-3-halyson {
+    margin-left: 20px;
 }
 
 .img-card-halyson {
@@ -73,4 +72,8 @@
     justify-content: center;
     gap: 10px;
     padding: 0px 20px;
+}
+
+.img-sobre-halyson {
+    width: 100%;
 }

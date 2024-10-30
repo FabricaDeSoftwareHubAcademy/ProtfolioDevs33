@@ -13,7 +13,7 @@
     --color-branca-halyson: #ffffff;
     --color-preta-halyson: #000000;
 
-    --color-fundo-halyson: #FDF9EF;
+    --color-fundo-halyson: #ffffff;
 
     --color-vermelha-halyson: #8B0000;
     --color-vermelha-2-halyson: #ff0000;
@@ -169,7 +169,8 @@
 
 @media screen and (max-width: 550px) {
     .banner-text-halyson {
-        width: 250px;
+        width: 300px;
+        height: 70px;
     }
 
     .text-banner-halyson {
