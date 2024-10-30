@@ -31,7 +31,7 @@ html{
 #voltar-r{
  font-size: 30px;
  color: var(--color-primary-3);
- margin-left: 10%;
+ margin-left: 25px;
  margin-top: 45px;
 }
 
@@ -118,7 +118,7 @@ html{
  height: 40px;
  color: var(--color-primary-4);
  font-size: 45px;
- margin-left: 53.7rem;
+ margin-left: 55.5rem;
  margin-top: -160px;
  position: absolute;
  transition: 0.1s ease;
