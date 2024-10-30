@@ -189,6 +189,9 @@ header{
         justify-content: space-evenly;
         width: 100%;
     }
+    .cta h2{
+        margin-top: 1%;
+    }
 } 
 
 /* Quem Sou */
