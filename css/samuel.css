@@ -269,20 +269,22 @@ h3:hover{
     
     
 }
-.projetos .bs, .projetos1 .bs{
+.projetos .bs{
     
+    border-bottom: 1px solid #000000;
+   
     padding: 1rem;
     color: #7b4be3;
     font-weight: bold;
     font-size: 60px;
     position: relative;
-    left: 3cm;
+    left: 2.5cm;
     font-style: italic;
-    
-    
+  
 }
 .bs:hover{
     color: #ffffff;
+    border-color: #ffffff;
     transition: .2s;
     cursor: pointer;
     transform: scale(1.05);  
@@ -314,7 +316,7 @@ h3:hover{
 }
 
 
-/* Animação de rolagem */
+
 @keyframes slide1 {
     from {
         transform: translateX(0); 
@@ -335,10 +337,3 @@ html {
     scroll-behavior: smooth; }
 
 
-.titulo-contato{
-   color: #ffffff;
-   display: inline-block;
-   justify-content: center;
-   align-items: center;
-
-}
