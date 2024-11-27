@@ -30,7 +30,6 @@ body {
 
 header {
     background-color: var(--color-3);
-    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -165,8 +164,9 @@ header .navegacao-primaria li a:hover::after {
 main {
     background-color: var(--color-4);
     color: var(--color-2);
-    width: 100%;
+    width: 140%;
     margin-top: 20px;
+    margin: 0px -230px;
 }
 
 main .sobre{
@@ -212,8 +212,9 @@ main .sobre{
 .sobre img{
     animation: sideSection .5s ease-in-out forwards;
     grid-row: 2;
-    max-width: 130%;
+    max-width: 100%;
     margin-top: -90px;
+    margin-right: -100px;
     box-shadow: 0px 0px 5px 0px var(--color-8);
 }
 
@@ -307,8 +308,8 @@ main .sobre{
 .services{
     background-color: var(--color-5);
     padding: 50px;
-    width: 100%;
-    margin-top: -10px;
+    width: 140%;
+    margin: 0px -230px;
 }
 
 
@@ -418,7 +419,7 @@ main .sobre{
 
 .bt1{
     align-items: center;
-    margin: -85px auto 80px;
+    margin: -120px auto 80px;
 }
 
 .custom-line{
